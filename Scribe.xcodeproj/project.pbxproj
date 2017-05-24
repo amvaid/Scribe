@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1359931ED3FC5B0092BD7A /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4C1359921ED3FC5B0092BD7A /* test.m4a */; };
+		4C1359951ED400650092BD7A /* location.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4C1359941ED400650092BD7A /* location.m4a */; };
+		4C1359971ED401800092BD7A /* myway.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4C1359961ED401800092BD7A /* myway.m4a */; };
+		4C1359991ED404E70092BD7A /* southpark.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4C1359981ED404E70092BD7A /* southpark.m4a */; };
+		4CBA9F001ED406140043D10D /* test2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9EFF1ED406140043D10D /* test2.m4a */; };
 		4CCBFE661ED3DEA4009CEAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFE651ED3DEA4009CEAE6 /* AppDelegate.swift */; };
 		4CCBFE681ED3DEA4009CEAE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFE671ED3DEA4009CEAE6 /* ViewController.swift */; };
 		4CCBFE6B1ED3DEA4009CEAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBFE691ED3DEA4009CEAE6 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		4CCBFE701ED3DEA4009CEAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBFE6E1ED3DEA4009CEAE6 /* LaunchScreen.storyboard */; };
 		4CCBFE7B1ED3DEA4009CEAE6 /* ScribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFE7A1ED3DEA4009CEAE6 /* ScribeTests.swift */; };
 		4CCBFE861ED3DEA4009CEAE6 /* ScribeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFE851ED3DEA4009CEAE6 /* ScribeUITests.swift */; };
+		4CCBFE971ED3E324009CEAE6 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFE961ED3E324009CEAE6 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1359921ED3FC5B0092BD7A /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
+		4C1359941ED400650092BD7A /* location.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = location.m4a; sourceTree = "<group>"; };
+		4C1359961ED401800092BD7A /* myway.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = myway.m4a; sourceTree = "<group>"; };
+		4C1359981ED404E70092BD7A /* southpark.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = southpark.m4a; sourceTree = "<group>"; };
+		4CBA9EFF1ED406140043D10D /* test2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.m4a; sourceTree = "<group>"; };
 		4CCBFE621ED3DEA4009CEAE6 /* Scribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCBFE651ED3DEA4009CEAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CCBFE671ED3DEA4009CEAE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		4CCBFE811ED3DEA4009CEAE6 /* ScribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCBFE851ED3DEA4009CEAE6 /* ScribeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribeUITests.swift; sourceTree = "<group>"; };
 		4CCBFE871ED3DEA4009CEAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCBFE961ED3E324009CEAE6 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,11 @@
 		4CCBFE641ED3DEA4009CEAE6 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				4CCBFE981ED3EA8C009CEAE6 /* Resources */,
+				4CCBFE931ED3E2B2009CEAE6 /* Model */,
+				4CCBFE941ED3E2C6009CEAE6 /* View */,
+				4CCBFE951ED3E2CD009CEAE6 /* Controller */,
 				4CCBFE651ED3DEA4009CEAE6 /* AppDelegate.swift */,
-				4CCBFE671ED3DEA4009CEAE6 /* ViewController.swift */,
 				4CCBFE691ED3DEA4009CEAE6 /* Main.storyboard */,
 				4CCBFE6C1ED3DEA4009CEAE6 /* Assets.xcassets */,
 				4CCBFE6E1ED3DEA4009CEAE6 /* LaunchScreen.storyboard */,
@@ -123,6 +138,41 @@
 				4CCBFE871ED3DEA4009CEAE6 /* Info.plist */,
 			);
 			path = ScribeUITests;
+			sourceTree = "<group>";
+		};
+		4CCBFE931ED3E2B2009CEAE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4CCBFE941ED3E2C6009CEAE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CCBFE961ED3E324009CEAE6 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4CCBFE951ED3E2CD009CEAE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CCBFE671ED3DEA4009CEAE6 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4CCBFE981ED3EA8C009CEAE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9EFF1ED406140043D10D /* test2.m4a */,
+				4C1359981ED404E70092BD7A /* southpark.m4a */,
+				4C1359961ED401800092BD7A /* myway.m4a */,
+				4C1359941ED400650092BD7A /* location.m4a */,
+				4C1359921ED3FC5B0092BD7A /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +285,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1359931ED3FC5B0092BD7A /* test.m4a in Resources */,
 				4CCBFE701ED3DEA4009CEAE6 /* LaunchScreen.storyboard in Resources */,
+				4C1359971ED401800092BD7A /* myway.m4a in Resources */,
+				4CBA9F001ED406140043D10D /* test2.m4a in Resources */,
 				4CCBFE6D1ED3DEA4009CEAE6 /* Assets.xcassets in Resources */,
 				4CCBFE6B1ED3DEA4009CEAE6 /* Main.storyboard in Resources */,
+				4C1359951ED400650092BD7A /* location.m4a in Resources */,
+				4C1359991ED404E70092BD7A /* southpark.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCBFE971ED3E324009CEAE6 /* CircleButton.swift in Sources */,
 				4CCBFE681ED3DEA4009CEAE6 /* ViewController.swift in Sources */,
 				4CCBFE661ED3DEA4009CEAE6 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +572,7 @@
 				4CCBFE8C1ED3DEA4009CEAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCBFE8D1ED3DEA4009CEAE6 /* Build configuration list for PBXNativeTarget "ScribeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +581,7 @@
 				4CCBFE8F1ED3DEA4009CEAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCBFE901ED3DEA4009CEAE6 /* Build configuration list for PBXNativeTarget "ScribeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +590,7 @@
 				4CCBFE921ED3DEA4009CEAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
